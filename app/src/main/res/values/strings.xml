@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather Alert</string>
+
+    <string name="dialog_add_favourite_city_title">Add favourite city</string>
+    <string name="dialog_add_favourite_city_text">Type city name to add to favourites</string>
+    <string name="dialog_confirm_favourite_city">Add</string>
+    <string name="dialog_confirm_cancel">Cancel</string>
+
+    <string name="favourite_city_empty_message">Press add icon to add favourite city forecast</string>
+</resources>

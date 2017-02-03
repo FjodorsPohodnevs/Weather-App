@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="size_primary_text">16sp</dimen>
+    <dimen name="size_secondary_text">14sp</dimen>
+
+    <!--List view-->
+    <dimen name="padding_list">16dp</dimen>
+    <dimen name="padding_list_text_with_picture">72dp</dimen>
+    <dimen name="padding_top_list_item">8dp</dimen>
+    <dimen name="height_list_item">90dp</dimen>
+    <dimen name="size_wind_direction_icon">50dp</dimen>
+
+    <dimen name="height_divider_date">1dp</dimen>
+    <dimen name="margin_bottom_date">8dp</dimen>
+    <dimen name="height_layout_date">48dp</dimen>
+
+    <!-- Favourite city dialog -->
+    <dimen name="margin_dialog">16dp</dimen>
+
+</resources>

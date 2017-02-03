@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_layout_date"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding_list"
+    android:paddingRight="@dimen/padding_list"
+    android:paddingTop="@dimen/padding_top_list_item">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="@dimen/margin_bottom_date"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/size_secondary_text"
+        tools:text="2014/04/02" />
+
+    <View
+        android:id="@+id/separatorView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_divider_date"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

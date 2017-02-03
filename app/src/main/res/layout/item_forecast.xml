@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_list_item"
+    android:paddingTop="@dimen/padding_top_list_item">
+
+    <ImageView
+        android:id="@+id/wind_direction"
+        android:layout_width="@dimen/size_wind_direction_icon"
+        android:layout_height="@dimen/size_wind_direction_icon"
+        android:layout_centerVertical="true"
+        android:paddingLeft="@dimen/padding_list"
+        android:src="@drawable/ic_navigation_black_24dp" />
+
+    <LinearLayout
+        android:id="@+id/text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_list_text_with_picture">
+
+        <TextView
+            android:id="@+id/wind_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/size_primary_text"
+            tools:text="5 m/s" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/size_secondary_text"
+            tools:text="2014/04/02" />
+
+    </LinearLayout>
+
+</RelativeLayout>
